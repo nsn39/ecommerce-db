@@ -1,0 +1,11 @@
+postgres:
+  host: localhost
+  port: 5432
+  database: ecommerce_db
+  user: postgres
+  password_env: POSTGRES_PASSWORD
+
+loading:
+  batch_size: 100000
+  use_copy: true
+  truncate_before_load: false

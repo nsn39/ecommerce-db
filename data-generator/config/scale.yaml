@@ -1,0 +1,29 @@
+identity:
+  customers: 2000000
+  addresses: 3000000
+
+catalog:
+  products: 100000
+  categories: 500
+  brands: 2000
+
+warehouse:
+  warehouses: 50
+  storage_locations: 10000
+
+inventory:
+  stock_records: 2000000
+  movements: 10000000
+
+orders:
+  orders: 10000000
+  order_items: 30000000
+
+payments:
+  transactions: 11000000
+
+shipping:
+  shipments: 9000000
+
+returns:
+  returns: 500000
