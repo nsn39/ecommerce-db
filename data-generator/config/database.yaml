@@ -2,10 +2,28 @@ postgres:
   host: localhost
   port: 5432
   database: ecommerce_db
-  user: postgres
+  user: nishan
   password_env: POSTGRES_PASSWORD
 
 loading:
   batch_size: 100000
   use_copy: true
   truncate_before_load: false
+
+
+inventory:
+  target_balances: 17500000
+  batch_size: 20000
+  seed: 20261113
+  very_high_percent_of_high: 10
+
+
+historical_orders:
+  target_orders: 30000000
+  batch_customers: 75
+  workers: 6
+  seed: 20261120
+  active_customer_fraction: 0.40
+  checkout_probability: 0.85
+  extra_abandoned_cart_probability: 0.08
+  max_items_per_order: 5

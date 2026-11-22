@@ -1,3 +1,4 @@
 .env
 venv/
 data-generator/aws-reviews23-dataset/*
+data-generator/generators/__pycache__

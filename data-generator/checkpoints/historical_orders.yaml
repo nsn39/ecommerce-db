@@ -1,0 +1,9 @@
+version: 1
+seed: 20261120
+target_orders: 30000000
+active_customer_fraction: 0.4
+start_utc: '2025-11-20T23:59:59.999999+00:00'
+end_utc: '2026-11-20T23:59:59.999999+00:00'
+next_customer_index: 1681200
+committed_orders: 25210210
+completed: false

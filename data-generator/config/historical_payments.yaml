@@ -1,0 +1,7 @@
+seed: 20261121
+workers: 5
+batch_orders: 20000
+shard_size: 250000
+retry_probability: 0.012
+auth_capture_probability: 0.10
+refund_probability: 0.008
